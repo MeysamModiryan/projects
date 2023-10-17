@@ -1,0 +1,84 @@
+B 2 C o m p i l a t i o n
+B 200 Symbol Listing
+B 377 Include File Summary
+B 395 Equation Listing    SOLVE FirstStage Using MIP From line 157
+D 396 cost
+D 416 c1
+D 437 c2
+D 458 c3
+D 479 c4
+D 500 c7_1
+D 647 c7_2
+D 1146 c7_3
+D 1245 c8_1
+D 1356 c8_2
+D 1855 c8_3
+D 2002 c13_1
+D 2145 c13_2
+D 2706 c13_3
+D 2835 c14_1
+D 2992 c14_2
+D 3553 c14_3
+D 3682 c11_1
+D 3839 c11_2
+D 4400 c11_3
+D 4529 c5_1
+D 6688 c5_2
+D 10693 c5_3
+D 11872 c6_1
+D 13492 c6_2
+D 16497 c6_3
+D 17676 c9_1
+D 17833 c9_2
+D 18394 c9_3
+B 18525 Column Listing      SOLVE FirstStage Using MIP From line 157
+E 18526 as
+E 18548 an
+E 18570 ds
+E 18589 dn
+E 18610 y
+E 18629 z
+B 18638 Model Statistics    SOLVE FirstStage Using MIP From line 157
+B 18654 Solution Report     SOLVE FirstStage Using MIP From line 157
+F 18691 cost
+F 18697 c1
+F 18711 c2
+F 18725 c3
+F 18739 c4
+F 18753 c7_1
+F 18830 c7_2
+F 19083 c7_3
+F 19136 c8_1
+F 19195 c8_2
+F 19448 c8_3
+F 19525 c13_1
+F 19600 c13_2
+F 19884 c13_3
+F 19952 c14_1
+F 20034 c14_2
+F 20318 c14_3
+F 20386 c11_1
+F 20468 c11_2
+F 20752 c11_3
+F 20820 c5_1
+F 21364 c5_2
+F 23880 c5_3
+F 24179 c6_1
+F 24723 c6_2
+F 27239 c6_3
+F 27538 c9_1
+F 27620 c9_2
+F 27904 c9_3
+G 27967 as
+G 28399 an
+G 28825 ds
+G 29249 dn
+G 29679 y
+G 33028 z
+B 33039 E x e c u t i o n
+I 33042 z
+I 33043 as
+I 33136 ds
+I 33229 an
+I 33322 dn
+I 33415 y

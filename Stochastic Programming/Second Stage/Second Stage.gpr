@@ -1,0 +1,34 @@
+[PROJECT]
+
+[OPENWINDOW_1]
+MAXIM=0
+TOP=0
+LEFT=0
+HEIGHT=486
+WIDTH=1298
+
+[RP:SCHEDULING 1STCONDITION]
+1=
+
+[RP:SCHEDULING1]
+1=
+
+[RP:UNTITLED_1]
+1=
+
+[RP:SECONDSTAGE]
+1=
+
+[RP:FIRSTSTAGE]
+1=
+
+[MRUFILES]
+1=C:\Users\RAYAN POOYESH\Documents\gamsdir\First Stage\FirstStage.gms
+2=G:\Second Stage\SecondStage.gms
+3=G:\Second Stage\Untitled_1.gms
+4=G:\Second Stage\Untitled_1.lst
+5=G:\Second Stage\SecondStage.lst
+6=F:\Class\Railway Planning\Stochastic Timetabling\SecondStage.gms
+7=F:\Class\Railway Planning\Stochastic Timetabling\SecondStage.lst
+8=F:\Class\Railway Planning\Stochastic Timetabling\Untitled_1.gms
+9=F:\Class\Railway Planning\Stochastic Timetabling\Untitled_1.lst

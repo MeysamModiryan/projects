@@ -1,0 +1,208 @@
+
+--- Job SecondStage.gms Start 06/01/16 22:54:56 24.1.2 r40979 WEX-WEI x86_64/MS Windows
+GAMS 24.1.2   Copyright (C) 1987-2013 GAMS Development. All rights reserved
+Licensee: Gary Goldstein                                 G010614:2121CA-WIN
+          Decision Ware, Inc.                                        DC2807
+--- Starting compilation
+--- SecondStage.gms(10) 2 Mb
+--- call gdxxrw.exe  data-mixed.xlsx @secondstage.txt
+
+GDXXRW           24.1.2 r40979 Released Jun 16, 2013 VS8 x86/MS Windows       
+Input file : G:\Second Stage\data-mixed.xlsx
+Output file: G:\Second Stage\data-mixed.gdx
+Total time = 1672 Ms
+--- SecondStage.gms(11) 2 Mb
+--- GDXin=G:\Second Stage\data-mixed.gdx
+--- SecondStage.gms(47) 3 Mb
+--- call gdxxrw.exe data-mixed.xlsx @secondstage.txt
+
+GDXXRW           24.1.2 r40979 Released Jun 16, 2013 VS8 x86/MS Windows       
+Input file : G:\Second Stage\data-mixed.xlsx
+Output file: G:\Second Stage\data-mixed.gdx
+Value expected in cell: Deterministic!AK12; found Departure Time
+Total number of bad values for symbol sds = 1
+Value expected in cell: Deterministic!D12; found Departure Time
+Total number of bad values for symbol sdn = 1
+Total time = 1844 Ms
+--- SecondStage.gms(48) 3 Mb
+--- GDXin=G:\Second Stage\data-mixed.gdx
+--- SecondStage.gms(174) 4 Mb
+--- Starting execution: elapsed 0:00:03.766
+--- SecondStage.gms(170) 4 Mb
+--- Generating MIP model SecondStage
+--- SecondStage.gms(171) 59 Mb
+---   200,821 rows  102,481 columns  516,801 non-zeroes
+---   66,880 discrete-columns
+--- Executing CPLEX: elapsed 0:00:22.113
+
+IBM ILOG CPLEX   24.1.2 r40979 Released Jun 16, 2013 WEI x86_64/MS Windows    
+--- GAMS/Cplex licensed for continuous and discrete problems.
+Cplex 12.5.1.0
+
+Reading data...
+Starting Cplex...
+Tried aggregator 5 times.
+MIP Presolve eliminated 22541 rows and 4021 columns.
+Aggregator did 16284 substitutions.
+Reduced MIP has 161996 rows, 82176 columns, and 456072 nonzeros.
+Reduced MIP has 66040 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.70 sec. (431.84 ticks)
+Found incumbent of value 28595.750000 after 2.01 sec. (1733.58 ticks)
+Probing time = 0.09 sec. (22.62 ticks)
+Tried aggregator 3 times.
+Aggregator did 3 substitutions.
+Reduced MIP has 161993 rows, 82173 columns, and 456066 nonzeros.
+Reduced MIP has 66040 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.38 sec. (231.41 ticks)
+Probing time = 0.09 sec. (22.62 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Tried aggregator 1 time.
+Aggregator did 2 substitutions.
+Reduced LP has 161991 rows, 82171 columns, and 456062 nonzeros.
+Presolve time = 0.16 sec. (96.73 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =         16437.868500
+Perturbation started.
+Iteration:   101   Dual objective     =         16437.868500
+Iteration:   917   Dual objective     =         16476.830322
+Iteration:  1742   Dual objective     =         16516.483253
+Iteration:  2562   Dual objective     =         16558.077208
+Iteration:  3392   Dual objective     =         16600.421536
+Iteration:  4218   Dual objective     =         16625.970210
+Iteration:  5039   Dual objective     =         16640.419022
+Iteration:  6371   Dual objective     =         16647.112963
+Iteration:  8642   Dual objective     =         16647.163099
+Iteration: 10951   Dual objective     =         16647.213211
+Iteration: 13269   Dual objective     =         16647.213310
+Iteration: 15591   Dual objective     =         16647.213394
+Iteration: 17917   Dual objective     =         16647.213470
+Iteration: 20247   Dual objective     =         16647.213540
+Iteration: 22581   Dual objective     =         16647.213602
+Iteration: 24919   Dual objective     =         16647.213657
+Iteration: 27261   Dual objective     =         16647.213704
+Iteration: 29607   Dual objective     =         16647.213743
+Iteration: 31957   Dual objective     =         16647.213774
+Iteration: 34311   Dual objective     =         16647.213799
+Iteration: 36669   Dual objective     =         16647.213816
+Iteration: 37994   Dual objective     =         16647.226324
+Iteration: 38288   Dual objective     =         16647.267841
+Iteration: 39302   Dual objective     =         16647.301356
+Removing perturbation.
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         16647.250000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         16647.250000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         16647.250000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         16647.250000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         16647.250000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         16647.250000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         16647.250000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         16647.250000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         16647.250000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         16647.250000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         16647.250000
+Root relaxation solution time = 39.92 sec. (58263.45 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        28595.7500    16428.5000    41637   42.55%
+Found incumbent of value 28595.750000 after 42.78 sec. (60411.74 ticks)
+      0     0    16647.2500  1284    28595.7500    16647.2500    41637   41.78%
+*     0+    0                        17724.9500    16647.2500    41637    6.08%
+Found incumbent of value 17724.950000 after 44.47 sec. (61401.70 ticks)
+      0     0    16649.1485  1331    17724.9500    Cuts: 5008    46134    6.07%
+      0     0    16723.4361  1299    17724.9500    Cuts: 2619    50482    5.65%
+      0     0    16738.2043  1362    17724.9500    Cuts: 1761    51926    5.57%
+*     0+    0                        17630.2000    16738.2043    51926    5.06%
+Found incumbent of value 17630.200000 after 56.84 sec. (70762.02 ticks)
+*     0+    0                        17588.0500    16738.2043    51926    4.83%
+Found incumbent of value 17588.050000 after 58.25 sec. (71902.21 ticks)
+
+Implied bound cuts applied:  26
+Flow cuts applied:  30
+Mixed integer rounding cuts applied:  1777
+Gomory fractional cuts applied:  115
+
+Root node processing (before b&c):
+  Real time             =   58.34 sec. (71962.65 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =   58.34 sec. (71962.65 ticks)
+MIP status(102): integer optimal, tolerance
+Cplex Time: 58.34sec (det. 71962.65 ticks)
+Fixing integer variables, and solving final LP...
+Tried aggregator 1 time.
+DUAL formed by presolve
+LP Presolve eliminated 22541 rows and 70061 columns.
+Aggregator did 16200 substitutions.
+Reduced LP has 16220 rows, 178279 columns, and 340359 nonzeros.
+Presolve time = 0.25 sec. (128.21 ticks)
+
+Iteration log . . .
+Iteration:     1    Infeasibility =             4.400000
+Iteration:    24    Infeasibility =             1.750000
+Switched to devex.
+Iteration:   902    Objective     =         16148.150000
+Iteration:  1471    Objective     =         16158.750000
+Iteration:  2097    Objective     =         16188.300000
+Iteration:  2623    Objective     =         16211.500000
+Iteration:  3031    Objective     =         16258.400000
+Iteration:  3330    Objective     =         16312.200000
+Iteration:  3543    Objective     =         16421.000000
+Iteration:  4408    Objective     =         16664.900000
+Iteration:  5227    Objective     =         17039.600000
+Iteration:  5986    Objective     =         17269.600000
+Iteration:  6603    Objective     =         17465.100000
+Iteration:  7297    Objective     =         17576.599999
+Fixed MIP status(1): optimal
+Cplex Time: 0.86sec (det. 486.72 ticks)
+
+Solution satisfies tolerances.
+
+MIP Solution:        17588.050000    (51926 iterations, 0 nodes)
+Final Solve:         17588.050000    (7517 iterations)
+
+Best possible:       16738.204276
+Absolute gap:          849.845724
+Relative gap:            0.048319
+
+--- Restarting execution
+--- SecondStage.gms(171) 16 Mb
+--- Reading solution for model SecondStage
+--- SecondStage.gms(171) 30 Mb
+--- Executing after solve: elapsed 0:01:25.428
+--- SecondStage.gms(174) 31 Mb
+
+GDXXRW           24.1.2 r40979 Released Jun 16, 2013 VS8 x86/MS Windows       
+Input file : G:\Second Stage\Data-mixed.gdx
+Output file: G:\Second Stage\Data-mixed.xlsx
+Total time = 1859 Ms
+*** Status: Normal completion
+--- Job SecondStage.gms Stop 06/01/16 22:56:27 elapsed 0:01:30.956

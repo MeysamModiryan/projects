@@ -1,0 +1,170 @@
+
+--- Job FirstStage.gms Start 06/01/16 19:29:40 24.1.2 r40979 WEX-WEI x86_64/MS Windows
+GAMS 24.1.2   Copyright (C) 1987-2013 GAMS Development. All rights reserved
+Licensee: Gary Goldstein                                 G010614:2121CA-WIN
+          Decision Ware, Inc.                                        DC2807
+--- Starting compilation
+--- FirstStage.gms(14) 2 Mb
+--- call gdxxrw.exe Data.xlsx @FirstStage.txt
+
+GDXXRW           24.1.2 r40979 Released Jun 16, 2013 VS8 x86/MS Windows       
+Input file : C:\Users\RAYAN POOYESH\Documents\gamsdir\First Stage\Data.xlsx
+Output file: C:\Users\RAYAN POOYESH\Documents\gamsdir\First Stage\Data.gdx
+Total time = 391 Ms
+--- FirstStage.gms(15) 2 Mb
+--- GDXin=C:\Users\RAYAN POOYESH\Documents\gamsdir\First Stage\Data.gdx
+--- FirstStage.gms(45) 3 Mb
+--- call gdxxrw.exe Data.xlsx @FirstStage.txt
+
+GDXXRW           24.1.2 r40979 Released Jun 16, 2013 VS8 x86/MS Windows       
+Input file : C:\Users\RAYAN POOYESH\Documents\gamsdir\First Stage\Data.xlsx
+Output file: C:\Users\RAYAN POOYESH\Documents\gamsdir\First Stage\Data.gdx
+Total time = 406 Ms
+--- FirstStage.gms(46) 3 Mb
+--- GDXin=C:\Users\RAYAN POOYESH\Documents\gamsdir\First Stage\Data.gdx
+--- FirstStage.gms(160) 3 Mb
+--- Starting execution: elapsed 0:00:00.976
+--- FirstStage.gms(156) 4 Mb
+--- Generating MIP model FirstStage
+--- FirstStage.gms(157) 7 Mb
+---   9,136 rows  5,037 columns  24,947 non-zeroes
+---   3,344 discrete-columns
+--- Executing CPLEX: elapsed 0:00:01.365
+
+IBM ILOG CPLEX   24.1.2 r40979 Released Jun 16, 2013 WEI x86_64/MS Windows    
+--- GAMS/Cplex licensed for continuous and discrete problems.
+Cplex 12.5.1.0
+
+Reading data...
+Starting Cplex...
+Tried aggregator 8 times.
+MIP Presolve eliminated 1987 rows and 1004 columns.
+MIP Presolve modified 58384 coefficients.
+Aggregator did 907 substitutions.
+Reduced MIP has 6242 rows, 3126 columns, and 17284 nonzeros.
+Reduced MIP has 2400 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.16 sec. (73.33 ticks)
+Found incumbent of value 151075.000000 after 0.17 sec. (92.49 ticks)
+Probing fixed 0 vars, tightened 7 bounds.
+Probing time = 0.05 sec. (31.80 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 17 rows and 2 columns.
+MIP Presolve modified 680 coefficients.
+Aggregator did 2 substitutions.
+Reduced MIP has 6223 rows, 3122 columns, and 17246 nonzeros.
+Reduced MIP has 2400 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (10.82 ticks)
+Probing time = 0.00 sec. (6.67 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Tried aggregator 1 time.
+LP Presolve eliminated 6 rows and 0 columns.
+Aggregator did 7 substitutions.
+Reduced LP has 6210 rows, 3115 columns, and 17220 nonzeros.
+Presolve time = 0.02 sec. (3.36 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =         15204.000000
+Perturbation started.
+Iteration:   101   Dual objective     =         15204.000000
+Iteration:   258   Dual objective     =         15204.001625
+Iteration:   425   Dual objective     =         15204.003144
+Iteration:   649   Dual objective     =         15404.002348
+Iteration:   812   Dual objective     =         15527.000489
+Iteration:   961   Dual objective     =         15527.000493
+Iteration:  1108   Dual objective     =         15527.000497
+Iteration:  1256   Dual objective     =         15527.000499
+Iteration:  1406   Dual objective     =         15527.000501
+Iteration:  1555   Dual objective     =         15527.000503
+Iteration:  1704   Dual objective     =         15527.000504
+Removing perturbation.
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         15527.000000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         15527.000000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         15527.000000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         15527.000000
+
+Iteration log . . .
+Iteration:     0   Dual objective     =         15527.000000
+Root relaxation solution time = 0.13 sec. (194.49 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       151075.0000    15204.0000     1847   89.94%
+Found incumbent of value 151075.000000 after 0.38 sec. (342.06 ticks)
+      0     0    15527.0000    72   151075.0000    15527.0000     1847   89.72%
+*     0+    0                        16725.0000    15527.0000     1847    7.16%
+Found incumbent of value 16725.000000 after 0.42 sec. (360.29 ticks)
+      0     0    15527.0000    69    16725.0000     Cuts: 116     1902    7.16%
+*     0+    0                        16606.0000    15527.0000     1902    6.50%
+Found incumbent of value 16606.000000 after 0.53 sec. (452.62 ticks)
+      0     0    15538.6178    67    16606.0000     Cuts: 233     2077    6.43%
+*     0+    0                        16135.0000    15538.6178     2077    3.70%
+Found incumbent of value 16135.000000 after 0.63 sec. (535.29 ticks)
+
+Flow cuts applied:  1
+Mixed integer rounding cuts applied:  6
+Gomory fractional cuts applied:  37
+
+Root node processing (before b&c):
+  Real time             =    0.63 sec. (535.59 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.63 sec. (535.59 ticks)
+MIP status(102): integer optimal, tolerance
+Cplex Time: 0.63sec (det. 535.59 ticks)
+Fixing integer variables, and solving final LP...
+Tried aggregator 1 time.
+DUAL formed by presolve
+LP Presolve eliminated 238 rows and 3376 columns.
+Aggregator did 830 substitutions.
+Reduced LP has 831 rows, 8197 columns, and 16265 nonzeros.
+Presolve time = 0.02 sec. (5.75 ticks)
+
+Iteration log . . .
+Iteration:     1    Infeasibility =            18.000000
+Iteration:    35    Objective     =        -14960.000000
+Iteration:   268    Objective     =        -10366.000000
+Iteration:   481    Objective     =          4925.000000
+Iteration:   725    Objective     =          6265.000000
+Iteration:   909    Objective     =         10838.000000
+Iteration:  1110    Objective     =         13137.000000
+Iteration:  1300    Objective     =         14876.000000
+Iteration:  1461    Objective     =         15853.000000
+Fixed MIP status(1): optimal
+Cplex Time: 0.05sec (det. 26.63 ticks)
+
+Solution satisfies tolerances.
+
+MIP Solution:        16135.000000    (2077 iterations, 0 nodes)
+Final Solve:         16135.000000    (1533 iterations)
+
+Best possible:       15538.617759
+Absolute gap:          596.382241
+Relative gap:            0.036962
+
+--- Restarting execution
+--- FirstStage.gms(157) 3 Mb
+--- Reading solution for model FirstStage
+--- FirstStage.gms(157) 3 Mb
+--- Executing after solve: elapsed 0:00:02.162
+--- FirstStage.gms(160) 4 Mb
+
+GDXXRW           24.1.2 r40979 Released Jun 16, 2013 VS8 x86/MS Windows       
+Input file : C:\Users\RAYAN POOYESH\Documents\gamsdir\First Stage\Data.gdx
+Output file: C:\Users\RAYAN POOYESH\Documents\gamsdir\First Stage\Data.xlsx
+Total time = 469 Ms
+*** Status: Normal completion
+--- Job FirstStage.gms Stop 06/01/16 19:29:42 elapsed 0:00:02.703

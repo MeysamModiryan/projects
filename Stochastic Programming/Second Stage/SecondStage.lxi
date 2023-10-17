@@ -1,0 +1,83 @@
+B 2 C o m p i l a t i o n
+B 233 Include File Summary
+B 248 Equation Listing    SOLVE SecondStage Using MIP From line 171
+D 249 Difference
+D 494 constraint1
+D 857 constraint2
+D 1220 constraint3_1
+D 5225 constraint3_2
+D 9230 constraint3_3
+D 13235 constraint4_1
+D 17240 constraint4_2
+D 21245 constraint4_3
+D 25250 constraint5_1
+D 27255 constraint5_2
+D 29260 constraint5_3
+D 31265 constraint6_1
+D 33270 constraint6_2
+D 35275 constraint6_3
+D 37280 constraint7_1
+D 41285 constraint7_2
+D 45290 constraint7_3
+D 49295 constraint8_1
+D 53300 constraint8_2
+D 57305 constraint8_3
+D 61038 constraint9_1
+D 63399 constraint9_2
+D 66170 constraint9_3
+D 68941 constraint10_1
+D 71414 constraint10_2
+D 74253 constraint10_3
+D 77026 constraint11
+D 79031 constraint12
+B 81038 Column Listing      SOLVE SecondStage Using MIP From line 171
+E 81039 Asw
+E 81062 Anw
+E 81084 Dsw
+E 81106 Dnw
+E 81128 Y
+E 81147 Z
+B 81156 Model Statistics    SOLVE SecondStage Using MIP From line 171
+B 81172 Solution Report     SOLVE SecondStage Using MIP From line 171
+F 81209 Difference
+F 81215 constraint1
+F 81400 constraint2
+F 81585 constraint3_1
+F 92370 constraint3_2
+F 142595 constraint3_3
+F 148480 constraint4_1
+F 159265 constraint4_2
+F 209490 constraint4_3
+F 215375 constraint5_1
+F 216700 constraint5_2
+F 221665 constraint5_3
+F 222870 constraint6_1
+F 223955 constraint6_2
+F 228920 constraint6_3
+F 230365 constraint7_1
+F 231910 constraint7_2
+F 237495 constraint7_3
+F 238760 constraint8_1
+F 240305 constraint8_2
+F 245890 constraint8_3
+F 247155 constraint9_1
+F 248560 constraint9_2
+F 254145 constraint9_3
+F 255410 constraint10_1
+F 256955 constraint10_2
+F 262540 constraint10_3
+F 263805 constraint11
+F 272990 constraint12
+G 282170 Asw
+G 290715 Anw
+G 299300 Dsw
+G 308485 Dnw
+G 317790 Y
+G 384675 Z
+B 384686 E x e c u t i o n
+I 384689 Z
+I 384690 Asw
+I 386220 Anw
+I 387730 Dsw
+I 389260 Dnw
+I 390790 Y

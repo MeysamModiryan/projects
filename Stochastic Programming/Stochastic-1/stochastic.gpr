@@ -1,0 +1,36 @@
+[PROJECT]
+
+[RP:SCHEDULING1]
+1=
+
+[RP:FIRSTSTAGE]
+1=
+
+[RP:SECONDSTAGE]
+1=
+
+[RP:STOCHASTIC]
+1=
+
+[RP:UNTITLED_1]
+1=
+
+[MRUFILES]
+1=C:\Users\RAYAN POOYESH\Documents\gamsdir\stochastic\Untitled_1.gms
+2=G:\Second Stage-2Obj\SecondStage.gms
+3=G:\Second Stage\SecondStage.gms
+4=C:\Users\RAYAN POOYESH\Documents\gamsdir\First Stage\FirstStage.gms
+5=C:\Users\RAYAN POOYESH\Documents\gamsdir\meysam\scheduling1.gms
+6=C:\Users\RAYAN POOYESH\Documents\gamsdir\stochastic\SecondStage.lst
+7=C:\Users\RAYAN POOYESH\Documents\gamsdir\stochastic\scheduling1.lst
+
+[OPENWINDOW_1]
+FILE0=C:\Users\RAYAN POOYESH\Documents\gamsdir\projdir\amir.gms
+FILE1=C:\Users\RAYAN POOYESH\Documents\gamsdir\stochastic\stochastic.gms
+FILE2=C:\Users\RAYAN POOYESH\Documents\gamsdir\stochastic\stochastic.lst
+FILE3=C:\Users\RAYAN POOYESH\Documents\gamsdir\projdir\amir.gms
+MAXIM=0
+TOP=26
+LEFT=0
+HEIGHT=542
+WIDTH=897

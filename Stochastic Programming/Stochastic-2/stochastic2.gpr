@@ -1,0 +1,28 @@
+[PROJECT]
+
+[RP:ANDEAN]
+1=
+
+[RP:STOCHASTIC]
+1=
+
+[RP:STOCHASTIC2]
+1=
+
+[RP:AMIR]
+1=
+
+[MRUFILES]
+1=C:\Users\RAYAN POOYESH\Documents\gamsdir\projdir\amir.gms
+2=C:\Users\RAYAN POOYESH\Documents\gamsdir\stochastic2\stochastic2.lst
+3=C:\Users\RAYAN POOYESH\Documents\gamsdir\stochastic\stochastic.gms
+4=C:\Users\RAYAN POOYESH\Documents\gamsdir\stochastic2\andean.gms
+
+[OPENWINDOW_1]
+FILE0=C:\Users\RAYAN POOYESH\Documents\gamsdir\stochastic2\stochastic2.gms
+FILE1=C:\Users\RAYAN POOYESH\Documents\gamsdir\stochastic2\stochastic2.gms
+MAXIM=0
+TOP=52
+LEFT=52
+HEIGHT=416
+WIDTH=1154
